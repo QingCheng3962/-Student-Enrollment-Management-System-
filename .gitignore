@@ -1,0 +1,5 @@
+# 隐私数据与无关目录一律忽略，仅发布桌面版源码
+*
+!student.py
+!README.md
+!.gitignore
