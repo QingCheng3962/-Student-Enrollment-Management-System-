@@ -2,7 +2,6 @@
 
 一款基于 Python + Tkinter 开发的桌面端「学生学籍管理系统」，提供学生信息检索、照片管理、档案打印、数据导入与批量导出等完整功能。
 
-> 本仓库仅包含源代码（`student.py`）。由于学生照片与学籍信息属于个人隐私数据，**默认不随仓库发布**。
 > 如需运行完整功能，请按下文说明在本地准备 `_internal` 数据目录。
 
 ## 功能特性
@@ -41,7 +40,7 @@ pip install pandas openpyxl Pillow
 ```
 项目根目录/
 ├── student.py                 # 主程序
-└── _internal/                 # 数据目录（默认不随仓库发布）
+└── _internal/                 # 数据目录
     ├── pic/                   # 学生照片（文件名需含 姓名/学籍号/身份证号，供自动匹配）
     └── studentinfo/
         └── students_data.xlsx # 学生信息主数据表
@@ -68,4 +67,3 @@ python student.py
   - 原作者：**qingcheng3962**
   - 项目地址：https://github.com/QingCheng3962/-Student-Enrollment-Management-System-
 - 禁止在未标注原作者的情况下，将本项目整体或部分代码用于任何形式的发布、售卖、竞赛作品、课程作业或商业用途。
-- 本仓库内的学生照片、身份信息等均为个人隐私数据，任何人不得将本地数据公开传播。
